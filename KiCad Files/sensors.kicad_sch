@@ -7,4 +7,21 @@
   (lib_symbols
   )
 
+
+  (wire (pts (xy 196.4436 102.1588) (xy 87.3506 102.1588))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 32a2f93b-16df-4770-bc80-527fdb2ae15f)
+  )
+  (wire (pts (xy 87.3506 59.1566) (xy 196.6976 59.1566))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 56ff2288-13d4-4098-a5c7-84a24b2613d1)
+  )
+  (wire (pts (xy 87.3506 102.1588) (xy 87.3506 59.1566))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 748d63ca-ef14-4e90-85ec-56619f2bea16)
+  )
+  (wire (pts (xy 196.6976 59.1566) (xy 196.6976 102.4128))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 836c1b72-6495-4f81-a125-58f0f7d787c2)
+  )
 )
