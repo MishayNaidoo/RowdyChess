@@ -316,6 +316,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      ""
+    ],
+    [
+      "590c1e64-bea6-4659-9fa3-7b726d55c0d8",
+      "Coils"
+    ],
+    [
+      "a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc",
+      "Sensors"
+    ],
+    [
+      "021e1531-ea6d-4459-bbcc-9d9627defa37",
+      "Microcontroller"
+    ],
+    [
+      "9b820a33-e033-4765-bfba-086e83bc930f",
+      "Power"
+    ]
+  ],
   "text_variables": {}
 }

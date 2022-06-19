@@ -1,5 +1,84 @@
 (kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 38.354 99.314) (size 65.278 48.006) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 021e1531-ea6d-4459-bbcc-9d9627defa37)
+    (property "Sheet name" "Microcontroller" (id 0) (at 38.354 98.6024 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "microcontroller.kicad_sch" (id 1) (at 38.354 147.9046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 38.608 34.798) (size 65.278 48.006) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 590c1e64-bea6-4659-9fa3-7b726d55c0d8)
+    (property "Sheet name" "Coils" (id 0) (at 38.608 34.0864 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "coils.kicad_sch" (id 1) (at 38.608 83.3886 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 139.192 98.806) (size 65.278 48.006) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9b820a33-e033-4765-bfba-086e83bc930f)
+    (property "Sheet name" "Power" (id 0) (at 139.192 98.0944 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 139.192 147.3966 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 139.446 35.306) (size 65.278 48.006) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc)
+    (property "Sheet name" "Sensors" (id 0) (at 139.446 34.5944 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "sensors.kicad_sch" (id 1) (at 139.446 83.8966 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8" (page "2"))
+    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc" (page "3"))
+    (path "/021e1531-ea6d-4459-bbcc-9d9627defa37" (page "4"))
+    (path "/9b820a33-e033-4765-bfba-086e83bc930f" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/70f43254-c71c-407a-929e-cc599b9c2a26"
+      (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/73355350-7b22-4692-b10c-d41fb5e705f7"
+      (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/bb5a2b4c-2f61-4999-841f-465d640eabda"
+      (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/c23806e2-2103-4b84-9d48-a8f7045018f0"
+      (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/20795852-5961-4a1e-a58a-e018f5fafd6c"
+      (reference "U?") (unit 1) (value "MC74HC138ADR2G") (footprint "SOIC127P600X175-16N")
+    )
+  )
 )
