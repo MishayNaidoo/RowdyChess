@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AH1902-Z-7
+#/1054156/789157/2.49/5/4/Integrated Circuit
+DEF AH1902-Z-7 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "AH1902-Z-7" 1050 200 50 H V L CNN
+F2 "AH1902Z7" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/AH1902-Z-7.pdf" 1050 0 50 H I L CNN
+F4 "Board Mount Hall Effect / Magnetic Sensors Omni Hall-Effect 1.6V to 3.6V 4.3uA" 1050 -100 50 H I L CNN "Description"
+F5 "0.62" 1050 -200 50 H I L CNN "Height"
+F6 "Diodes Inc." 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AH1902-Z-7" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-AH1902-Z-7" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-AH1902-Z-7" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NC_1 1 1200 -200 200 L 50 50 0 0 P
+X GND 2 1200 -100 200 L 50 50 0 0 P
+X NC_2 3 1200 0 200 L 50 50 0 0 P
+X VDD 4 0 0 200 R 50 50 0 0 P
+X OUTPUT 5 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

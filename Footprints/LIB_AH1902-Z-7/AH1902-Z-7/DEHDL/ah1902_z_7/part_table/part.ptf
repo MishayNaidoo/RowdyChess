@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AH1902_Z_7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Inc.", "AH1902-Z-7" (!) = "", "AH1902Z7", "Other", "621-AH1902-Z-7", "https://www.mouser.com/Search/Refine.aspx?Keyword=621-AH1902-Z-7", "", "", "Board Mount Hall Effect / Magnetic Sensors Omni Hall-Effect 1.6V to 3.6V 4.3uA", "https://componentsearchengine.com/Datasheets/1/AH1902-Z-7.pdf", "0.62 mm"
+END_PART
+
+END.

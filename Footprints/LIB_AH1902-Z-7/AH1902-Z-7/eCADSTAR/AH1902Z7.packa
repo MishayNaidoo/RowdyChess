@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AH1902-Z-7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-04-23-12:15:43)
+    (mountForm default
+        (footprintRef "AH1902Z7")
+        (spec "System")
+    )
+)
