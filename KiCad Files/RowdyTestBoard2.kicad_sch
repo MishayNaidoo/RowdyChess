@@ -65,16 +65,28 @@
   )
 
   (symbol_instances
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/5de4fbb2-1b94-40fa-a7eb-5ad36fe8b0cd"
+      (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
     (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/70f43254-c71c-407a-929e-cc599b9c2a26"
       (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/73355350-7b22-4692-b10c-d41fb5e705f7"
       (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/81cac65d-3d14-45a2-be2e-d9011fc374c6"
+      (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
     (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/bb5a2b4c-2f61-4999-841f-465d640eabda"
       (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/c0dd6704-15b7-4ab3-9321-79f3b6d074dc"
+      (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
     (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/c23806e2-2103-4b84-9d48-a8f7045018f0"
+      (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/fca6177b-d012-44f8-9bc7-9ccafed45b60"
       (reference "Q?") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/20795852-5961-4a1e-a58a-e018f5fafd6c"
