@@ -1,0 +1,9 @@
+Manufacturer=Diodes Inc.
+PartNumber=AH1902-Z-7
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=5
+Version=1.2
+Released=2020-04-23 12:15:43
+Downloaded=2022-03-17 13:25:53
+3D=Y

@@ -1,0 +1,136 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AH1902-Z-7"
+   (description "Board Mount Hall Effect / Magnetic Sensors Omni Hall-Effect 1.6V to 3.6V 4.3uA")
+   (family "ANA")
+   (package "AH1902Z7")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/AH1902-Z-7.pdf")
+   (attribute "Geometry.Height" "0.62mm")
+   (attribute "Manufacturer_Name" "Diodes Inc.")
+   (attribute "Manufacturer_Part_Number" "AH1902-Z-7")
+   (attribute "Mouser Part Number" "621-AH1902-Z-7")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=621-AH1902-Z-7")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "AH1902-Z-7")
+    (pin "NC_1" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "NC_2" 3 PS)
+    (pin "VDD" 4 PS)
+    (pin "OUTPUT" 5 PS)
+   )
+  )
+  (symbol "AH1902-Z-7"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AH1902Z7"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.8 -0.6)
+      (pt 0.8 -0.6)
+      (pt 0.8 0.6)
+      (pt -0.8 0.6)
+      (pt -0.8 -0.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.8 0.25)
+      (pt -0.8 0.25)
+      (pt -0.8 -0.25)
+      (pt -0.8 -0.25)
+      (pt -0.8 0.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.8 0.25)
+      (pt 0.8 0.25)
+      (pt 0.8 -0.25)
+      (pt 0.8 -0.25)
+      (pt 0.8 0.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.8 2.8)
+      (pt 1.8 2.8)
+      (pt 1.8 -2.1)
+      (pt -1.8 -2.1)
+      (pt -1.8 2.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.5 1.8)
+      (arc (pt 0.500 1.800) (pt 0.450 1.700) (pt 0.550 1.800) (start 180.0) (sweep 90.0))
+      (pt 0.5 1.7)
+      (arc (pt 0.500 1.700) (pt 0.450 1.700) (pt 0.550 1.800) (start 180.0) (sweep -90.0))
+      (pt 0.5 1.8)
+      (arc (pt 0.500 1.800) (pt 0.450 1.700) (pt 0.550 1.800) (start 180.0) (sweep 90.0))
+      (pt 0.5 1.7))))
+   (leg 1 (pt 0.500 0.850) (padstack 0))
+   (leg 2 (pt 0.000 0.850) (padstack 0))
+   (leg 3 (pt -0.500 0.850) (padstack 0))
+   (leg 4 (pt -0.500 -0.850) (padstack 0))
+   (leg 5 (pt 0.500 -0.850) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.375 0.500 0 0 90.000))
+   )
+   (model "AH1902-Z-7.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
