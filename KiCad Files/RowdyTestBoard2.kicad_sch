@@ -254,10 +254,10 @@
       (reference "Q8") (unit 1) (value "AO3401A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/5da08a6e-2341-44f6-b87d-35b35dcb30ef"
-      (reference "U1") (unit 1) (value "74HC595") (footprint "")
+      (reference "U1") (unit 1) (value "74HC595") (footprint "74HC595:SO16")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/1d385561-6cf8-47aa-954a-811a26f12596"
-      (reference "U2") (unit 1) (value "74HC165") (footprint "")
+      (reference "U2") (unit 1) (value "74HC165") (footprint "74HC165:SO-16")
     )
   )
 )
