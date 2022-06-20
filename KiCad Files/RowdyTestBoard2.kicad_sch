@@ -158,16 +158,16 @@
       (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/283de13d-7f80-4c60-ab8c-dabe2f24e9cc"
-      (reference "C1") (unit 1) (value "C") (footprint "")
+      (reference "C1") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/c8d4a300-c721-4e8e-8421-e824840dd3a3"
-      (reference "C2") (unit 1) (value "C") (footprint "")
+      (reference "C2") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/2f12269c-604b-4f0c-b6d2-570b375e6f3e"
-      (reference "C3") (unit 1) (value "C") (footprint "")
+      (reference "C3") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/004e570a-651a-4298-8191-ceec66973458"
-      (reference "C4") (unit 1) (value "C") (footprint "")
+      (reference "C4") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/ff45e544-680d-4099-bd07-451c5137b60b"
       (reference "IC1") (unit 1) (value "AH1902-Z-7") (footprint "AH1902Z7")
@@ -258,6 +258,9 @@
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/1d385561-6cf8-47aa-954a-811a26f12596"
       (reference "U2") (unit 1) (value "74HC165") (footprint "74HC165:SO-16")
+    )
+    (path "/9b820a33-e033-4765-bfba-086e83bc930f/e1c8fd90-d23e-4fdc-9b2a-f970fac84ca5"
+      (reference "U3") (unit 1) (value "USB-C") (footprint "USB_C:USB-C-SMD_KH-TYPE-C-16P")
     )
   )
 )
