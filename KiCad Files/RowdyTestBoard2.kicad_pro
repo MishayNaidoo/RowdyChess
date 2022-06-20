@@ -435,14 +435,6 @@
     [
       "a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc",
       "Sensors"
-    ],
-    [
-      "021e1531-ea6d-4459-bbcc-9d9627defa37",
-      "Microcontroller"
-    ],
-    [
-      "9b820a33-e033-4765-bfba-086e83bc930f",
-      "Power"
     ]
   ],
   "text_variables": {}
