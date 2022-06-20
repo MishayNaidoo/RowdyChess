@@ -822,7 +822,7 @@
   (symbol (lib_id "power:GND") (at 147.066 149.606 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6136ad65-ee71-4c73-8837-6b6089860a08)
-    (property "Reference" "#PWR?" (id 0) (at 147.066 155.956 0)
+    (property "Reference" "#PWR0101" (id 0) (at 147.066 155.956 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 147.066 154.94 0))
@@ -859,7 +859,7 @@
   (symbol (lib_id "power:GND") (at 146.812 129.794 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid acdf798d-1afa-4215-a53d-19ed72d39c03)
-    (property "Reference" "#PWR?" (id 0) (at 146.812 136.144 0)
+    (property "Reference" "#PWR0102" (id 0) (at 146.812 136.144 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 146.812 135.128 0))
@@ -999,10 +999,10 @@
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
     (path "/6136ad65-ee71-4c73-8837-6b6089860a08"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/acdf798d-1afa-4215-a53d-19ed72d39c03"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/283de13d-7f80-4c60-ab8c-dabe2f24e9cc"
       (reference "C1") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1060,6 +1060,18 @@
     )
     (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/b268e7b6-bede-40b7-a17a-4c774464ab9e"
       (reference "Q8") (unit 1) (value "AO3401A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/319e2c46-5707-4f8c-9660-c5d21368210c"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/3b093664-13a3-436c-b119-e0763ec6ab53"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/80b2fbfd-be65-4fba-8561-61ea0c2bc7c9"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/590c1e64-bea6-4659-9fa3-7b726d55c0d8/95f66ee0-72e7-4e41-aafd-5817af287cb8"
+      (reference "R?") (unit 1) (value "R") (footprint "")
     )
     (path "/577e54a9-9cb1-484c-8d79-b69321559c30"
       (reference "U1") (unit 1) (value "USB-C") (footprint "USB_C:USB-C-SMD_KH-TYPE-C-16P")
