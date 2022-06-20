@@ -681,10 +681,13 @@
     (uuid 06df2c7b-9992-4fe2-8804-c49a5197fa1a)
     (property "Reference" "D1" (id 0) (at 102.4255 115.824 0))
     (property "Value" "1N5819" (id 1) (at 102.4255 118.364 0))
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (id 2) (at 102.108 118.237 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323F" (id 2) (at 102.108 118.237 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (id 3) (at 102.108 122.682 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part Number" "C2128" (id 4) (at 102.108 122.682 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 93ce6397-422c-4729-8d61-6a43803c87af))
@@ -924,19 +927,19 @@
       (reference "C4") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/06df2c7b-9992-4fe2-8804-c49a5197fa1a"
-      (reference "D1") (unit 1) (value "1N5819") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+      (reference "D1") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-323F")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/ff45e544-680d-4099-bd07-451c5137b60b"
-      (reference "IC1") (unit 1) (value "AH1902-Z-7") (footprint "AH1902Z7")
+      (reference "IC1") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/266b7e6f-426b-43f7-b46d-50ac4ff256b9"
-      (reference "IC2") (unit 1) (value "AH1902-Z-7") (footprint "AH1902Z7")
+      (reference "IC2") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/94b7b858-992d-497a-bd6b-051f4dea2255"
-      (reference "IC3") (unit 1) (value "AH1902-Z-7") (footprint "AH1902Z7")
+      (reference "IC3") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/7b3f904b-56d8-43af-af24-37ea6851b116"
-      (reference "IC4") (unit 1) (value "AH1902-Z-7") (footprint "AH1902Z7")
+      (reference "IC4") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
     )
     (path "/4afba3fc-9c59-47b9-9f58-f71bedabd29c"
       (reference "J1") (unit 1) (value "Conn_02x04_Top_Bottom") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical_SMD")
