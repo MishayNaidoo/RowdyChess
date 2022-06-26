@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Rowdy Test Board")
+    (date "2022-06-26")
+    (company "Rowdy Chess")
+    (comment 1 "Authors: Daniel Jones, David Newton, Mishay Naidoo")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC165" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 19.05 0)
