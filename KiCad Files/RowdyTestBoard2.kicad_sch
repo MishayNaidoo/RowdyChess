@@ -631,18 +631,6 @@
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/004e570a-651a-4298-8191-ceec66973458"
       (reference "C7") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/ff45e544-680d-4099-bd07-451c5137b60b"
-      (reference "IC1") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
-    )
-    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/266b7e6f-426b-43f7-b46d-50ac4ff256b9"
-      (reference "IC2") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
-    )
-    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/94b7b858-992d-497a-bd6b-051f4dea2255"
-      (reference "IC3") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
-    )
-    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/7b3f904b-56d8-43af-af24-37ea6851b116"
-      (reference "IC4") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
-    )
     (path "/4afba3fc-9c59-47b9-9f58-f71bedabd29c"
       (reference "J1") (unit 1) (value "Conn_02x04_Top_Bottom") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical_SMD")
     )
@@ -732,6 +720,18 @@
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/1d385561-6cf8-47aa-954a-811a26f12596"
       (reference "U3") (unit 1) (value "74HC165") (footprint "74HC165:SO-16")
+    )
+    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/a220f290-efd3-4f7f-91ff-d84481a0bfca"
+      (reference "U4") (unit 1) (value "SOT95") (footprint "SOT95:SOT95P230X110-3N")
+    )
+    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/e813cf80-47bd-4d3e-b1be-856704f5f3d9"
+      (reference "U5") (unit 1) (value "SOT95") (footprint "SOT95:SOT95P230X110-3N")
+    )
+    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/5050a159-db2a-44fd-9cb7-b23f924f1275"
+      (reference "U6") (unit 1) (value "SOT95") (footprint "SOT95:SOT95P230X110-3N")
+    )
+    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/080c6fab-2443-46d9-9fdb-80a61d76f30c"
+      (reference "U7") (unit 1) (value "SOT95") (footprint "SOT95:SOT95P230X110-3N")
     )
   )
 )
