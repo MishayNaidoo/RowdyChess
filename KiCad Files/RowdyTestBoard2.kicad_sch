@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Rowdy Test Board")
+    (date "2022-06-26")
+    (company "Rowdy Chess")
+    (comment 1 "Authors: Daniel Jones, David Newton, Mishay Naidoo")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x04_Top_Bottom" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 1.27 5.08 0)
@@ -350,6 +357,12 @@
     (property "Datasheet" "~" (id 3) (at 151.892 124.714 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLC Part Number" "C192300" (id 4) (at 151.892 124.714 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C192300" (id 5) (at 151.892 124.714 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cdfbd867-1acb-443c-8583-f3891d3e2ef4))
     (pin "2" (uuid aff1b121-9f3f-4b34-a75b-b8b8a0f92296))
     (pin "3" (uuid 6676d5e4-ae54-4752-9363-ad8943c6cf10))
@@ -387,6 +400,12 @@
     (property "Datasheet" "~" (id 3) (at 152.146 144.526 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLC Part Number" "C192300" (id 4) (at 152.146 144.526 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C192300" (id 5) (at 152.146 144.526 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d813b05e-a286-4b7c-b38c-9ed1b7c2490e))
     (pin "2" (uuid 3920dd2e-6714-4a95-a5b9-43f806299b9d))
     (pin "3" (uuid 1016d0cc-ce0b-478b-b245-ebf9b5d49a8f))
@@ -422,6 +441,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 185.674 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC Part Number" "C192300" (id 4) (at 185.674 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C192300" (id 5) (at 185.674 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3b63e46e-9a44-4741-a96e-c1c6dd8a6002))
@@ -606,18 +631,6 @@
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/004e570a-651a-4298-8191-ceec66973458"
       (reference "C7") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/ff45e544-680d-4099-bd07-451c5137b60b"
-      (reference "IC1") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
-    )
-    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/266b7e6f-426b-43f7-b46d-50ac4ff256b9"
-      (reference "IC2") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
-    )
-    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/94b7b858-992d-497a-bd6b-051f4dea2255"
-      (reference "IC3") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
-    )
-    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/7b3f904b-56d8-43af-af24-37ea6851b116"
-      (reference "IC4") (unit 1) (value "AH1902-Z-7") (footprint "HallSensor:AH1902Z7")
-    )
     (path "/4afba3fc-9c59-47b9-9f58-f71bedabd29c"
       (reference "J1") (unit 1) (value "Conn_02x04_Top_Bottom") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical_SMD")
     )
@@ -707,6 +720,18 @@
     )
     (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/1d385561-6cf8-47aa-954a-811a26f12596"
       (reference "U3") (unit 1) (value "74HC165") (footprint "74HC165:SO-16")
+    )
+    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/a220f290-efd3-4f7f-91ff-d84481a0bfca"
+      (reference "U4") (unit 1) (value "SOT95") (footprint "SOT95:SOT95P230X110-3N")
+    )
+    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/e813cf80-47bd-4d3e-b1be-856704f5f3d9"
+      (reference "U5") (unit 1) (value "SOT95") (footprint "SOT95:SOT95P230X110-3N")
+    )
+    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/5050a159-db2a-44fd-9cb7-b23f924f1275"
+      (reference "U6") (unit 1) (value "SOT95") (footprint "SOT95:SOT95P230X110-3N")
+    )
+    (path "/a6b1e09a-8af3-4cc4-9df1-f67a0e8f20fc/080c6fab-2443-46d9-9fdb-80a61d76f30c"
+      (reference "U7") (unit 1) (value "SOT95") (footprint "SOT95:SOT95P230X110-3N")
     )
   )
 )
